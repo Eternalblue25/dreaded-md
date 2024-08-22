@@ -114,16 +114,16 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254704706667'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
-const botname = process.env.BOTNAME || "DREADED-MD";
+const botname = process.env.BOTNAME || "LATRO-MD";
 
-    const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
-    const autoreaddm = process.env.AUTOREAD || 'TRUE';
-const antibot = process.env.ANTIBOT || 'FALSE';
-const antitag = process.env.ANTITAG || 'FALSE';
+    const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'FALSE';
+    const autoreaddm = process.env.AUTOREAD || 'FALSE';
+const antibot = process.env.ANTIBOT || 'TRUE';
+const antitag = process.env.ANTITAG || 'TRUE';
 const antilink = process.env.ANTILINK || 'TRUE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
